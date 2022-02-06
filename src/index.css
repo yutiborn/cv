@@ -5,9 +5,44 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.scuare{
+  
+  border: 1px #fff solid;
+  line-height: 65px;
+  height:80px;
+  width: 80px;
+  text-align: center;
+  padding-bottom: 0;
+  cursor: pointer;
+
+}
+
+.yellow{
+  background-color: yellow;
+}
+.red{
+  background-color: red;
+}
+.green{
+  background-color: green;
+}
+.arr{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 40px;
+  color:#fff;
+  width: 700px;
+  margin:auto;
+
+
+
+ 
 }
